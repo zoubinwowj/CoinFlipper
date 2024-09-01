@@ -1,0 +1,83 @@
+@font-face {
+  font-family: "Gilroy";
+  src: url("src/assets/fonts/gilroy/Gilroy-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("src/assets/fonts/gilroy/Gilroy-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+body {
+  font-family: "Gilroy", sans-serif;
+  user-select: none;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#goey {
+  width: 350px;
+  height: 350px;
+  background: linear-gradient(to top right, rgb(111, 65, 86), rgb(68, 73, 79));
+  border-radius: 50%;
+  filter: blur(68px);
+  position: absolute;
+  top: 22%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+}
+
+#yellowgoey {
+  width: 200px;
+  height: 200px;
+  background: linear-gradient(
+    to top right,
+    rgb(194, 166, 98),
+    rgb(116, 48, 23)
+  );
+  border-radius: 50%;
+  filter: blur(68px);
+  position: absolute;
+  top: 27%;
+  left: 63%;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+}
+
+.animate-scale {
+  animation: scaleUp 10s linear infinite;
+}
+
+@keyframes scaleUp {
+  0% {
+    transform: scale(1) rotate(0deg);
+    filter: blur(40px);
+  }
+  50% {
+    transform: scale(2) rotate(10deg);
+    filter: blur(40px);
+  }
+  100% {
+    transform: scale(1) rotate(0deg);
+    filter: blur(40px);
+  }
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+
+
