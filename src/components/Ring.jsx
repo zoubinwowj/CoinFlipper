@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 export default function Ring({ className }) {
   return (
     <img
-      src="../src/assets/images/ringbg.webp"
+      src="../assets/images/ringbg.webp"
       alt="Ring"
       className={className}
     />
