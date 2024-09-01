@@ -5,13 +5,6 @@
 ## 🌐 Live Demo
 **You can try the live version of the project here**: [CoinFlipper](https://coinflipper-demo.vercel.app)
 
-- [Features](#features)  
-- [Technologies Used](#technologies-used)  
-- [Getting Started](#getting-started) 
-- [How to Use](#how-to-use) 
-- [Smart Contract Details](#smart-contract-details)  
-- [Event Logging](#event-logging) 
-
 ## ✨ Features
 
 - **Flip a Coin**: Users can bet on the outcome of a coin flip and receive double their bet amount if they win.
